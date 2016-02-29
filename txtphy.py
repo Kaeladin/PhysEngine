@@ -29,8 +29,8 @@ def main():
     
     dt_s   =  0.015
     x_m    = 11.0
-    v_mps  =  17.0   
-    a_mps2 = -2.0   
+    v_mps  =  47.0   
+    a_mps2 = -10.0   
     
     for j in range(5000):
         try:
@@ -40,7 +40,7 @@ def main():
             
             # Check for wall collisions.
             if (x_m < x_left_edge_m) or (x_m > x_right_edge_m): 
-                v_mps *= -1 * 0.80  # loss of 20% on each bounce.
+                v_mps *= -1 * 0.95  # loss of 20% on each bounce.
                 x_m = x_fix_sticky( x_m, x_left_edge_m, x_right_edge_m)
                 
             display_string = render_airtrack( m_to_px( x_m), m_to_px( x_left_edge_m), m_to_px( x_right_edge_m))
