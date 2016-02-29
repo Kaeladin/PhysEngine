@@ -1,0 +1,40 @@
+
+python-cairo - Python bindings for the Cairo vector graphics library
+python-cairo-dbg - Python bindings for the Cairo vector graphics library (debug extension)
+python3-cairo - Python 3 bindings for the Cairo vector graphics library
+python-gasp - procedural Python graphics library for beginning programmers
+python-glitch - Python library for OpenGL graphics programming
+python-pyscript - Python module for producing postscript graphics
+python-pyscript-doc - Python module for producing postscript graphics - documentation
+python-pyx - Python 2 module for generating PostScript graphics
+python-pyx-doc - Python 2 module for generating PostScript graphics (documentation)
+python-uniconvertor - Universal vector graphics translator
+python-uniconvertor-dbg - Universal vector graphics translator (debug extension)
+python3-pyx - Python 3 module for generating PostScript graphics
+python3-pyx-doc - Python 3 module for generating PostScript graphics (documentation)
+python-pyxattr - module for manipulating filesystem extended attributes
+python-pyxattr-dbg - module for manipulating filesystem extended attributes (debug extension)
+python3-pyxattr - module for manipulating filesystem extended attributes (Python3)
+python3-pyxattr-dbg - module for manipulating filesystem extended attributes (Python3 debug version)
+python-openpyxl - module to read/write OpenXML xlsx/xlsm files
+python-pyx - Python 2 module for generating PostScript graphics
+python-pyx-doc - Python 2 module for generating PostScript graphics (documentation)
+python-pyxb - Python XML Schema Bindings (Python2 version)
+python-pyxb-bundles-common - Python XML Schema Bindings (common bindings for Python2)
+python-pyxb-bundles-dc - Python XML Schema Bindings (Dublin Core bindings for Python2)
+python-pyxb-bundles-saml20 - Python XML Schema Bindings (SAML bindings for Python2)
+python-pyxb-bundles-wssplat - Python XML Schema Bindings (WS-* bindings for Python2)
+python-pyxb-doc - Python XML Schema Bindings (Documentation)
+python-pyxenstore - Access XenStore from Python
+python-pyxid - interface for Cedrus XID and StimTracker devices
+python-pyxmpp - XMPP and Jabber implementation for Python
+python-pyxmpp-doc - XMPP and Jabber implementation for Python (documentation)
+python-pyxnat - Interface to access neuroimaging data on XNAT servers
+python3-openpyxl - module to read/write OpenXML xlsx/xlsm files
+python3-pyx - Python 3 module for generating PostScript graphics
+python3-pyx-doc - Python 3 module for generating PostScript graphics (documentation)
+python3-pyxb - Python XML Schema Bindings (Python3 version)
+python3-pyxb-bundles-common - Python XML Schema Bindings (common bindings for Python3)
+python3-pyxb-bundles-dc - Python XML Schema Bindings (Dublin Core bindings for Python3)
+python3-pyxb-bundles-saml20 - Python XML Schema Bindings (SAML bindings for Python3)
+python3-pyxb-bundles-wssplat - Python XML Schema Bindings (WS-* bindings for Python3)
