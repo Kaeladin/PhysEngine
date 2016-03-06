@@ -16,17 +16,18 @@ class KinematicMass(PointMass):
         self.ay=accy
 	self.m=mass
 
+
     def kinematics(self):
-	return (self.x, self.vx, self.ax, self.y, self.vy, self.ay)
+	return (self.x, self.y, self.vx, self.vy, self.ax, self.ay)
 
     def display(self):
-        print "Posx: %.3f, Velx: %.3f, Accx: %.3f, Posy: %.3f, Vely: %.3f, Accy: %.3f" % self.kinematics()
+        print "Posx: %.3f, Posy: %.3f, Velx: %.3f, Vely: %.3f, Accx: %.3f, Accy: %.3f" % self.kinematics()
 
 
 class Robot(KinematicMass):
     def push(self, x, y):
-        self.ax=x
-        self.ay=y
+        self.ax+=x/self.m
+        self.ay+=y/self.m
 
 
 def main():
@@ -39,8 +40,8 @@ def main():
     ymin=0
 
     for j in range(5000):
-        if j==1000:
-            bot1.push(0,0)
+        if j%500==0:
+            bot1.push(j,-j)
 
         bot1.vx +=  bot1.ax * ts
         bot1.x  +=  bot1.vx * ts
